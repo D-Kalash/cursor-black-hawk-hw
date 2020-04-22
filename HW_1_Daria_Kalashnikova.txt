@@ -1,11 +1,12 @@
 ﻿Base
 
-git config --global user.name blabla
-git config --global user.email blabal@bla
-git init - to create a new repository
-git status - to show the state of the working directory/статус файл
-git add
-git commit
+git config --global user.name blabla - the global config for local repositories with a username 
+git config --global user.email blabal@bla - the global cofig for local repositories with a user's email
+git init - to create a new repository / створити новий репозиторій
+git status - to show the state of the working directory / показати статус файлів в робочому репозиторії
+git add <filename> - to add a file to the staging area
+git add . - to add all files 
+git commit - to record changes to the repository
 git log
 git checkout
 git branch
