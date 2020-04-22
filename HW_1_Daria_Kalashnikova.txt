@@ -1,0 +1,29 @@
+﻿Base
+
+git config --global user.name blabla
+git config --global user.email blabal@bla
+git init - to create a new repository
+git status - to show the state of the working directory/статус файл
+git add
+git commit
+git log
+git checkout
+git branch
+git push
+git pull
+git merge
+git clone
+Написати що таке .gitignore файл
+
+Bonus
+
+ls - показати всі файли, які знаходяться в папці
+cd <шлях папки> - перейти в папку
+
+Advanced
+
+git revert
+git reset
+git rebase
+git cherry-pick
+git stash
