@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW #2 Daria Kalashnikova</title>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Ім'я</th>
+          <th>Прізвище</th>
+          <th>Телефон</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Анна</td>
+          <td>Перша</td>
+          <td>050-123-12-12</td>
+          <td>123@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Петро</td>
+          <td>Другий</td>
+          <td>095-123-45-67</td>
+          <td>321@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Теодор</td>
+          <td>Третій</td>
+          <td>067-123-45-67</td>
+          <td>456@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Марія</td>
+          <td>Четверта</td>
+          <td>063-321-12-34</td>
+          <td>345@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <form class="form-example" name="name">
+      <p>Ваше ім'я</p>
+      <div>
+        <input type="text" name="name" required placeholder="Ваше ім'я" />
+      </div>
+      <p>Ваше прізвище</p>
+      <div>
+        <input type="text" name="surname" required placeholder="Ваше прізвище">
+      </div>
+      <p>Ваша стать</p>
+      <div>
+        <input type="radio" class="female" name="sex" value="female" checked>
+        <label for="female">Жіноча</label>
+        <input type="radio" class="male" name="sex" value="male">
+        <label for="male">Чоловіча</label>
+      </div>
+      <div>
+        <textarea name="questions" class="questions" cols="30" rows="10">Ваші питання</textarea>
+      </div>
+      <p>Виберіть місто</p>
+      <div>
+        <select name="cities" id="cities">
+          <option value="" selected disabled>Оберіть місто</option>
+          <option value="kyiv">Київ</option>
+          <option value="kharkiv">Харків</option>
+          <option value="odesa">Одеса</option>
+        </select>
+      </div>
+      <p>Виберіть мову</p>
+      <div>
+        <label for="ukr">
+          <input type="checkbox" value="ukr" name="language">
+          Українська
+        </label>
+        <label for="rus">
+          <input type="checkbox" value="rus" name="language">
+          Російська
+        </label>
+        <label for="eng">
+          <input type="checkbox" value="eng" name="language">
+          Англійська
+        </label>
+      </div>
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
