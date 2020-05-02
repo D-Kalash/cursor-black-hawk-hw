@@ -49,17 +49,28 @@
       </div>
       <p>Ваше прізвище</p>
       <div>
-        <input type="text" name="surname" required placeholder="Ваше прізвище">
+        <input
+          type="text"
+          name="surname"
+          required
+          placeholder="Ваше прізвище"
+        />
       </div>
       <p>Ваша стать</p>
       <div>
-        <input type="radio" class="female" name="sex" value="female" checked>
+        <input type="radio" id="female" name="sex" value="female" checked />
         <label for="female">Жіноча</label>
-        <input type="radio" class="male" name="sex" value="male">
+        <input type="radio" id="male" name="sex" value="male" />
         <label for="male">Чоловіча</label>
       </div>
       <div>
-        <textarea name="questions" class="questions" cols="30" rows="10">Ваші питання</textarea>
+        <textarea
+          name="questions"
+          class="questions"
+          cols="30"
+          rows="10"
+          placeholder="Ваші питання"
+        ></textarea>
       </div>
       <p>Виберіть місто</p>
       <div>
@@ -71,21 +82,21 @@
         </select>
       </div>
       <p>Виберіть мову</p>
-      <div>
-        <label for="ukr">
-          <input type="checkbox" value="ukr" name="language">
-          Українська
-        </label>
-        <label for="rus">
-          <input type="checkbox" value="rus" name="language">
-          Російська
-        </label>
-        <label for="eng">
-          <input type="checkbox" value="eng" name="language">
-          Англійська
-        </label>
-      </div>
-      <input type="submit" value="submit">
+      <p>
+        <input type="checkbox" value="uk" name="uk" id="uk" />
+        <label for="uk">Українська</label>
+      </p>
+      <p>
+        <input type="checkbox" value="rus" name="language" id="ru" />
+        <label for="ru">Російська</label>
+      </p>
+      <p>
+        <input type="checkbox" value="eng" name="language" id="en" />
+        <label for="en">Англійська</label>
+      </p>
+      <p>
+        <input type="submit" value="submit" />
+      </p>
     </form>
   </body>
 </html>
