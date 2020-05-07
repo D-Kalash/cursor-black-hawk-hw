@@ -25,21 +25,22 @@ td {
 }
 
 .folder {
-  font-size: 1%;
+   max-width: 20px; 
+   vertical-align: middle; 
+   margin-right: 5px;
 }
 
 .secondcolumn {
   color: grey;
 }
 .details {
-  float: right;
+  text-align: right;
   width: 16%;
   color: #444444;
 }
 
 .search {
-  font-size: 100%;
-  padding-left: 20%;
+  padding-right: 50%;
   width: 90%;
   position: relative;
   margin: 0.1%;
@@ -48,7 +49,7 @@ td {
   background-color: #444444;
   background-image: url(./Images/magnifying-glass.svg);
   background-size: 10%;
-  background-position: left 5% center;
+  background-position: left 5% cente;
   background-repeat: no-repeat;
   border: none;
   border-radius: 0.3rem;
