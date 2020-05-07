@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
 }
 table {
-  border: 1px solid hsl(0, 3%, 59%);
+  border: 3px solid hsl(0, 3%, 59%);
   border-collapse: separate;
   border-spacing: initial;
   width: 50%;
@@ -19,15 +19,15 @@ table {
 
 th,
 td {
-  border-bottom: 3px solid hsl(0, 5%, 83%);
+  border-bottom: 1px solid hsl(0, 5%, 83%);
   padding: 10px 10px;
   text-align: left;
 }
 
 .folder {
-   max-width: 20px; 
-   vertical-align: middle; 
-   margin-right: 5px;
+  max-width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 .secondcolumn {
@@ -39,20 +39,17 @@ td {
   color: #444444;
 }
 
-.search {
-  padding-right: 50%;
-  width: 90%;
-  position: relative;
-  margin: 0.1%;
-  height: 150%;
-  margin-left: 1%;
-  background-color: #444444;
+.searcharea {
   background-image: url(./Images/magnifying-glass.svg);
-  background-size: 10%;
-  background-position: left 5% cente;
   background-repeat: no-repeat;
+  background-size: 0.85em;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+  height: 60%;
   border: none;
-  border-radius: 0.3rem;
-  color: #e3e6e1;
   outline: none;
+  padding-left: 25px;
+  background-color: grey;
+  background-position: left 7px center;
 }
