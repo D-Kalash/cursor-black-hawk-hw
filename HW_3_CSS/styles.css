@@ -1,0 +1,57 @@
+body {
+  background: #2c2c2c;
+  font-family: sans-serif;
+}
+table {
+  border: 1px solid hsl(0, 3%, 59%);
+  border-collapse: separate;
+  border-spacing: initial;
+  width: 50%;
+  position: relative;
+  height: 50%;
+  border-radius: 0.3rem;
+  margin: 3% auto;
+  color: #cfcfcf;
+  font-size: 100%;
+  table-layout: fixed;
+  empty-cells: show;
+}
+
+th,
+td {
+  border-bottom: 3px solid hsl(0, 5%, 83%);
+  padding: 10px 10px;
+  text-align: left;
+}
+
+.folder {
+  font-size: 1%;
+}
+
+.secondcolumn {
+  color: grey;
+}
+.details {
+  float: right;
+  width: 16%;
+  color: #444444;
+}
+
+.search {
+  font-size: 100%;
+  padding-left: 20%;
+  width: 90%;
+  position: relative;
+  margin: 0.1%;
+  height: 150%;
+  margin-left: 1%;
+  background-color: #444444;
+  background-image: url(./Images/magnifying-glass.svg);
+  background-size: 10%;
+  background-position: left 5% center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0.3rem;
+  color: #e3e6e1;
+  outline: none;
+}
