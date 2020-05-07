@@ -40,16 +40,16 @@ td {
 }
 
 .searcharea {
-  background-image: url(./Images/magnifying-glass.svg);
-  background-repeat: no-repeat;
-  background-size: 0.85em;
-  padding: 10px;
-  border-radius: 5px;
-  width: 70%;
-  height: 60%;
-  border: none;
-  outline: none;
-  padding-left: 25px;
-  background-color: grey;
-  background-position: left 7px center;
+   background-image: url(./Images/magnifying-glass.svg);
+   background-repeat: no-repeat;
+   background-size: 0.85em;
+   padding: 10px;
+   border-radius: 5px;
+   width: 70%;
+   height: 60%;
+   border: none;
+   outline: none;
+   padding-left: 25px;
+   background-color: grey;
+   background-position: left 7px center;
 }
