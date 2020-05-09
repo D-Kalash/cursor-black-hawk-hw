@@ -63,7 +63,7 @@ td {
   outline: none;
 }
 
-.searchimg {
+/* .searchimg {
   position: absolute;
   left: 0;
   top: 0;
@@ -73,4 +73,18 @@ td {
   background-repeat: no-repeat;
   color: antiquewhite;
   size: 30px;
+} */
+
+.searcharea {
+  border-radius: 3em;
+  background-repeat: no-repeat;
+  background-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-position: left 7px center;
+  border-radius: 3em;
+  background-image: url(./Images/magnifying-glass.svg);
+  padding-left: 30%;
 }
