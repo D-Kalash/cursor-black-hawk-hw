@@ -36,21 +36,37 @@ td {
 .details {
   text-align: right;
   width: 16%;
-  color: #444444;
+  color: #cecece;
 }
 
-.searcharea {
-  border-radius: 3em;
-   background-repeat: no-repeat;
-   background-size: 0.85em;
-   padding: 10px;
-   border-radius: 5px;
-   width: 70%;
-   height: 60%;
-   border: none;
-   outline: none;
-   background-color:#444444;
-   background-position: left 7px center;
-   border-radius: 3em;
-   background-image: url(./Images/magnifying-glass.svg);
+.search {
+  width: 70%;
+  position: relative;
+  padding-left: 30%;
+}
+
+.search input {
+  border: none;
+  color: whitesmoke;
+}
+
+.search .searcharea {
+  width: 100%;
+  padding: 8 15 9 37;
+  box-sizing: border-box;
+  border-radius: 15em;
+  background-color: rgb(165, 162, 162);
+  outline: none;
+}
+
+.searchimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(./Images/tools-and-utensils.png);
+  height: 100%;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+  size: 30px;
 }
