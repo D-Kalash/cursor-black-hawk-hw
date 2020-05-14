@@ -1,0 +1,268 @@
+body{
+   font-family: 'Lato', sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+header {
+   background: #ED4C5C;
+   min-height: 500px;
+}
+
+.contenainer {
+   display: flow-root;
+   justify-content: center;
+   min-width: 520px;
+   min-height: 510px;
+   margin: auto;
+}
+
+.left-side {
+   display: inline-block;
+   color: white;
+   font-family: 'Lato', sans-serif;  
+   position: absolute;
+   margin-top: 110px;
+   margin-left: 120px;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 36px;
+}
+
+.header-text {
+   font-size: 14px;
+   margin-top: 50px;
+   text-align: justify;
+   margin-right: -75px;
+}
+
+.icons {
+   margin-top: 60px;
+   cursor: pointer;
+   margin-right: 225px;
+}
+
+.icons {
+   margin-top: 47px;
+   align-items: center;
+   display: flex;
+} 
+
+.icons {
+   display: flex;
+   justify-content: space-between;
+   height: 32px;
+   width: 134px;
+   margin-top: 40px;
+}
+
+.right-side {
+   display: inline-block;
+   color: white;
+   font-family: 'Lato', sans-serif;  
+   position: absolute;
+   margin-top: 80px;
+   margin-left: 700px;
+}
+
+.main-lest-side {
+   min-height: 500px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px;
+ }
+ 
+ .left-text {
+   margin: auto;
+ }
+
+ .contact-title {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 43px;
+   margin-bottom: 65px;
+   color: #000000;
+ }
+ 
+ .content-contact {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 140%;
+   text-align: justify;
+   color: #000000;
+   padding-bottom: 20px;
+   padding-right: 10px;
+ }
+ 
+ .contact-form {
+   width: 540px;
+   height: 305px;
+   margin-top: auto;
+   margin-left: 700px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+
+ .name {
+   width: 255px;
+   height: 60px;
+   border: 1px solid #333333;
+   box-sizing: border-box;
+   border-radius: 6px;
+   padding: 20px;
+   padding-left: 31px;
+ }
+
+.input-text {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   color: rgba(19, 39, 67, 0.5);
+}
+ 
+.phone {
+   width: 540px;
+   height: 60px;
+   border: 1px solid #333333;
+   box-sizing: border-box;
+   border-radius: 6px;
+   padding: 15px;
+   padding-left: 31px;
+   padding-right: 30px;
+ }
+ 
+ .button-submit {
+   width: 160px;
+   height: 50px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 17px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background: #ed4c5c;
+   border: 1.5px solid #ed4c5c;
+   box-sizing: border-box;
+   border-radius: 6px;
+ }
+ 
+ .button-submit :hover {
+   background-color: #fff;
+   color: #ed4c5c;
+   transition: linear 0.5s;
+ }
+
+.footer {
+   min-width: 1040px;
+   min-height: 500px;
+   left: 0px;
+   top: 1045px;
+   background: #FAFAFA;
+   text-align: center;
+}
+
+.footer-main {
+   display: flow-root;
+   position: absolute;
+   min-width: 520px;
+   min-height: 500px;
+   margin-left: -1300px;
+}
+.adress {
+   position: absolute;
+   display: inline-block;
+   margin-top: 85px;
+   margin-left: 161px;
+   text-align: justify;
+}
+.adress-title {
+   font-weight: bold;
+   font-size: 18px;
+   font-family: Lato;
+}
+.adress-content {
+   font-size: 12px;
+   font-family: Lato;
+   margin-top: 40px;
+}
+.copyright {
+   font-size: 12px;
+   font-family: Lato;
+   margin-top: 200px;
+}
+.service {
+   position: absolute;
+   display: inline-block;
+   margin-top: 85px;
+   margin-left: 450px;
+   text-align: justify;
+}
+.srevice-title {
+   font-weight: bold;
+   font-size: 18px;
+   font-family: Lato;
+}
+.service-content {
+   cursor: pointer;
+   font-family: Lato;
+   font-size: 12px;
+   margin-top: 40px;
+}
+.get-in-touch {
+   position: absolute;
+   display: inline-block;
+   margin-top: 85px;
+   margin-left: 700px;
+   text-align: justify;
+}
+.get-in-touch-title {
+   font-weight: bold;
+   font-size: 18px;
+   font-family: Lato;
+}
+.get-in-touch-content {
+   font-size: 12px;
+   margin-top: 40px;
+   font-family: Lato;
+   cursor: pointer;
+}
+.contact-phone {
+   margin-top: 10px;
+   font-family: Lato;
+}
+.get-in-touch-icons {
+   margin-top: 10px;
+   cursor: pointer;
+}
+.linkdelin {
+   margin-left: 10px;
+}
+.twiter {
+   margin-left: 10px;
+}
+.we-support {
+   position: absolute;
+   display: inline-block;
+   margin-left: 950px;
+   margin-top: 85px;
+   text-align: justify;
+}
+.we-support-title {
+   font-size: 18px;
+   font-family: Lato;
+   font-weight: bold;
+}
+.we-support-icons {
+   margin-top: 40px;
+}
