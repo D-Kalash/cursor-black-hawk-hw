@@ -36,6 +36,9 @@ header {
    margin-top: 50px;
    text-align: justify;
    margin-right: -75px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 140%;
 }
 
 .icons {
@@ -65,9 +68,10 @@ header {
    position: absolute;
    margin-top: 80px;
    margin-left: 700px;
+   
 }
 
-.main-lest-side {
+.main-left-side {
    min-height: 500px;
    display: flex;
    justify-content: space-between;
@@ -76,7 +80,9 @@ header {
  }
  
  .left-text {
-   margin: auto;
+   margin: 100px;
+   margin-left: 120px;
+   font-weight: normal;
  }
 
  .contact-title {
@@ -104,7 +110,7 @@ header {
  .contact-form {
    width: 540px;
    height: 305px;
-   margin-top: auto;
+   margin-top: -330px;
    margin-left: 700px;
    display: flex;
    justify-content: space-between;
@@ -195,11 +201,14 @@ header {
    font-size: 14px;
    font-family: Lato;
    margin-top: 40px;
+   font-weight: normal;
 }
 .copyright {
    font-size: 12px;
    font-family: Lato;
    margin-top: 200px;
+   font-weight: normal;
+   font-style: normal;
 }
 .service {
    position: absolute;
@@ -218,6 +227,7 @@ header {
    font-family: Lato;
    font-size: 14px;
    margin-top: 40px;
+   font-weight: normal;
 }
 .get-in-touch {
    position: absolute;
@@ -265,4 +275,8 @@ header {
 }
 .we-support-icons {
    margin-top: 40px;
+}
+
+footer p {
+   margin-top: 10px;
 }
