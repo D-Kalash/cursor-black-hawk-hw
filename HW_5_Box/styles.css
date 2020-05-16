@@ -189,7 +189,7 @@ header {
    position: absolute;
    display: inline-block;
    margin-top: 85px;
-   margin-left: 161px;
+   margin-left: 140px;
    text-align: justify;
 }
 .adress-title {
@@ -198,7 +198,7 @@ header {
    font-family: Lato;
 }
 .adress-content {
-   font-size: 14px;
+   font-size: 12px;
    font-family: Lato;
    margin-top: 40px;
    font-weight: normal;
@@ -214,7 +214,7 @@ header {
    position: absolute;
    display: inline-block;
    margin-top: 85px;
-   margin-left: 400px;
+   margin-left: 390px;
    text-align: justify;
 }
 .srevice-title {
@@ -225,7 +225,7 @@ header {
 .service-content {
    cursor: pointer;
    font-family: Lato;
-   font-size: 14px;
+   font-size: 12px;
    margin-top: 40px;
    font-weight: normal;
 }
@@ -242,7 +242,7 @@ header {
    font-family: Lato;
 }
 .get-in-touch-content {
-   font-size: 14px;
+   font-size: 12px;
    margin-top: 40px;
    font-family: Lato;
    font-style:normal
