@@ -1,0 +1,637 @@
+html,
+body {
+  font-family: "Avenir", sans-serif;
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+
+}
+
+
+.container {
+  margin: 0 auto;
+}
+.header {
+  width: 78%;
+  padding-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+
+.navbar {
+  width: 70%;
+  height: 60px;
+  display: flex;
+}
+.logo {
+  margin-top: 12px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 322px;
+  height: 30px;
+  margin-left: 121px;
+  margin-top: 15px;
+  color: #4b5d68;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+.nav:hover {
+  font-weight: 800;
+  color: #212353;
+}
+
+.request {
+  margin-left: 418px;
+  letter-spacing: 0.005em;
+}
+
+.request-button {
+  width: 210px;
+  height: 60px;
+  border-radius: 50px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 29px;
+  padding-right: 29px;
+  color: #212353;
+  letter-spacing: 0.005em;
+  border: 0px;
+  transition: width 0.3s ease-out;
+}
+.request-button:hover {
+  width: 230px;
+}
+
+.main-header-title {
+  width: 800px;
+  height: 150px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 150%;
+  color: #212353;
+  margin-top: 130px;
+}
+
+.header-content {
+  width: 380px;
+  height: 120px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 50px;
+}
+
+.title-button {
+  margin-top: 50px;
+}
+
+.learnmore {
+  width: 170px;
+  height: 60px;
+  background: #9c69e2;
+  border-radius: 50px;
+  border: 0px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 1100;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+  transition: ease-in-out 1s;
+}
+.learnmore:hover {
+  color: #9c69e2;
+  background: white;
+  border: 2px solid #9c69e2;
+}
+
+.background {
+  position: absolute;
+  left: 750px;
+  top: 336px;
+}
+
+.header-title {
+  display: flex;
+}
+
+.about {
+  display: flex;
+
+  width: 69.81%;
+  height: 560px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.about-image {
+  margin-left: 11px;
+  margin-top: 31.82px;
+  margin-bottom: 24.18px;
+}
+.about-title {
+  margin-left: 62px;
+  margin-right: 92px;
+}
+
+.about-title-1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  margin-bottom: 100px;
+  height: 100px;
+  width: 475px;
+  height: 100px;
+}
+
+.about-content {
+  margin-top: 40px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  width: 474px;
+  height: 170px;
+  color: #4b5d68;
+}
+.main-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main-title-1 {
+  margin-top: 150px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.main__title-sub {
+  margin-top: 50px;
+  width: 584px;
+  height: 58px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  text-align: center;
+}
+
+.main-content {
+  margin-left: 13.75%;
+
+  margin-top: 150px;
+  height: 700px;
+  margin-right: 15.2%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content-main {
+  height: 160px;
+  width: 221px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 34px;
+}
+
+.search {
+  display: flex;
+}
+
+.search-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.search-text {
+  height: 160px;
+  width: 221px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 34px;
+}
+
+.search-image {
+  margin-top: 13px;
+  margin-left: 19px;
+}
+
+.main-content-title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.main-learnmore {
+  margin-top: 20px;
+  outline: none;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+  width: 127px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  transition: width 0.3s ease-out;
+}
+.main-learnmore:hover {
+  width: 150px;
+}
+
+.access {
+  display: flex;
+  margin-left: 5.2%;
+}
+.access-text {
+  margin-left: 33px;
+}
+
+.printout {
+  display: flex;
+  margin-top: 132px;
+}
+
+.printout-image {
+  margin-top: 65px;
+  margin-left: 1%;
+}
+
+.security {
+  display: flex;
+  margin-top: 132px;
+  margin-left: 7%;
+}
+
+.security-image {
+  margin-top: 30px;
+}
+
+.secondsection {
+  display: flex;
+  flex-direction: column;
+  width: 69.88%;
+  background: #9c69e2;
+  border-radius: 50px;
+  margin-top: 183px;
+  margin-left: 15.125%;
+  padding-bottom: 65px;
+}
+
+.secondsection-title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-top: 109px;
+  margin-left: 8.32%;
+}
+
+.secondsection-area {
+  background: #ffffff;
+  box-shadow: 0px 20px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 330px;
+  width: 84.88%;
+  margin-top: 88px;
+  margin-left: 8.32%;
+  display: flex;
+}
+
+.area-name-title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+  margin-top: 80px;
+}
+.secondsection-site {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #9c69e2;
+  
+}
+
+.secondsection-site a {
+  text-decoration: none;
+}
+
+
+.secondsection-text {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4b5d68;
+  margin-top: 19px;
+}
+.secondsection-avatar {
+  margin-left: 11.85%;
+  margin-right: 3%;
+  margin-top: 90px;
+}
+
+.secondsection-slider {
+  margin-top: 60px;
+  margin-left: 8.32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-arrow {
+  margin-right: 6.8%;
+  width: 8.94%;
+}
+.arrow-left {
+  margin-right: 14.79%;
+}
+
+
+.footer {      
+  width: 100%;
+  padding-bottom: 96px;
+  border-top: 2px solid rgba(155, 105, 226, 0.397);
+  margin-top: 150px;
+}
+
+.footer-top,
+.footer-button {
+  display: flex;
+}
+
+.footer-button {
+  flex-direction: row-reverse;
+  margin-left: 18.75%;
+  margin-top: 120px;
+}
+.footer-title {
+  margin-left: 15%;
+  margin-top: 100px;
+}
+.footer-title-main {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+  text-decoration: none;
+}
+
+.footer-content {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 20px;
+}
+
+.learnmore-footer {
+  margin-right: 30px;
+}
+
+.footer-request {
+  width: 210px;
+  height: 60px;
+  border-radius: 50px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 29px;
+  padding-right: 29px;
+  color: #212353;
+  letter-spacing: 0.005em;
+  border: 0px;
+  transition: width 0.3s ease-out;
+} 
+
+
+.footer-button-learnmore {
+  width: 170px;
+  height: 60px;
+  background: #f063b8;
+  border-radius: 50px;
+  border: 0px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  transition: ease 1s;
+}
+.footer-button-learnmore:hover {
+  color: #f063b8;
+  background: white;
+  border: 2px solid #f063b8;
+}
+
+.footer-logo {
+  display: flex;
+  margin-top: 130x;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.footer-logo {
+  margin-right: 20px;
+}
+
+.adress {
+  width: 335px;
+  height: 65px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  margin-top: 65px;
+}
+
+.footer-main {
+  display: flex;
+  margin-left: 15%;
+}
+.email {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  margin-top: 10px;
+}
+
+.copyright {
+  margin-top: 118px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+
+.footer-adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-name {
+  margin-top: 40px;
+  padding-left: 19px;
+}
+
+.footer-menu-title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  padding-left: 20px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.about-menu-list,
+.menu-help-list {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+  color: #212353;
+}
+
+.footer-socialmedia,
+.footer-help,
+.footer-about {
+  margin-top: 160px;
+}
+
+.footer-about {
+  margin-left: 7.81%;
+}
+
+.footer-menu,
+.help-menu,
+.socialmedia-logo {
+  margin-top: 30px;
+}
+
+.footer-help {
+  margin-left: 30px;
+}
+
+.footer-help,
+.footer-socialmedia {
+  margin-left: 10.31%;
+}
+
+.sm-logo {
+  margin-right: 14px;
+  padding-left: 10px;
+}
+
+.chat {
+  position: fixed;
+  top: 85%;
+  left: 85%;
+  bottom: auto;
+  right: auto;
+}
+.footer-item:hover {
+  font-weight: 800;
+}
