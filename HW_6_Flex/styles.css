@@ -144,7 +144,6 @@ a {
 
 .about {
   display: flex;
-
   width: 69.81%;
   height: 560px;
   background: rgba(240, 99, 184, 0.15);
@@ -297,7 +296,27 @@ a {
 
 .access {
   display: flex; 
-  margin-left: auto;
+  margin-left: 550px;
+  margin-top: -320px;
+}
+.access-text {
+  margin-left: 33px;
+}
+
+.printout {
+  display: flex;
+  margin-top: 20px;
+}
+
+.printout-image {
+  margin-top: 65px;
+  margin-left: 1%;
+}
+
+.security {
+  display: flex;
+  margin-top: -330px;
+  margin-left: 550px
 }
 .access-text {
   margin-left: 33px;
