@@ -8,13 +8,17 @@ header {
    background: #ED4C5C;
    min-height: 500px;
 }
+a {
+   text-decoration: none;
+}
 
 .contenainer {
-   display: flow-root;
+   display: flexbox;
    justify-content: center;
-   min-width: 520px;
-   min-height: 510px;
+   width: 100%;
+   height: 510p0x;
    margin: auto;
+   overflow: auto;
 }
 
 .left-side {
@@ -23,7 +27,7 @@ header {
    font-family: 'Lato', sans-serif;  
    position: absolute;
    margin-top: 110px;
-   margin-left: 120px;
+   padding-left: 120px;
 }
 
 .title {
@@ -67,7 +71,7 @@ header {
    font-family: 'Lato', sans-serif;  
    position: absolute;
    margin-top: 80px;
-   margin-left: 700px;
+   padding-left: 700px;
    
 }
 
@@ -81,7 +85,7 @@ header {
  
  .left-text {
    margin: 100px;
-   margin-left: 120px;
+   padding-left: 120px;
    font-weight: normal;
  }
 
@@ -111,7 +115,7 @@ header {
    width: 540px;
    height: 305px;
    margin-top: -330px;
-   margin-left: 700px;
+   padding-left: 700px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -189,7 +193,7 @@ header {
    position: absolute;
    display: inline-block;
    margin-top: 85px;
-   margin-left: 140px;
+   padding-left: 140px;
    text-align: justify;
 }
 .adress-title {
@@ -214,7 +218,7 @@ header {
    position: absolute;
    display: inline-block;
    margin-top: 85px;
-   margin-left: 390px;
+   padding-left: 390px;
    text-align: justify;
 }
 .srevice-title {
@@ -229,11 +233,15 @@ header {
    margin-top: 40px;
    font-weight: normal;
 }
+
+.service-content a {
+   color: #111111;
+}
 .get-in-touch {
    position: absolute;
    display: inline-block;
    margin-top: 85px;
-   margin-left: 30px;
+   padding-left: 30px;
    text-align: justify;
 }
 .get-in-touch-title {
@@ -256,15 +264,15 @@ header {
    cursor: pointer;
 }
 .linkdelin {
-   margin-left: 10px;
+   padding-left: 10px;
 }
 .twiter {
-   margin-left: 10px;
+   padding-left: 10px;
 }
 .we-support {
    position: absolute;
    display: inline-block;
-   margin-left: 300px;
+   padding-left: 300px;
    margin-top: 85px;
    text-align: justify;
 }
