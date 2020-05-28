@@ -5,6 +5,10 @@ body {
 
 }
 
+a {
+  text-decoration: none;
+  color: #212353;
+}
 
 .container {
   margin: 0 auto;
@@ -292,8 +296,8 @@ body {
 }
 
 .access {
-  display: flex;
-  margin-left: 5.2%;
+  display: flex; 
+  margin-left: auto;
 }
 .access-text {
   margin-left: 33px;
@@ -301,7 +305,7 @@ body {
 
 .printout {
   display: flex;
-  margin-top: 132px;
+  margin: auto;
 }
 
 .printout-image {
@@ -311,8 +315,7 @@ body {
 
 .security {
   display: flex;
-  margin-top: 132px;
-  margin-left: 7%;
+  margin: auto;
 }
 
 .security-image {
